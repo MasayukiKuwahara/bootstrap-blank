@@ -10,7 +10,7 @@
     <script>//<![CDATA[
       $(function() {
         $("#greeting-form").submit(function() {
-          $("#output").text("Hello, " + $(this).name + "!");
+          $("#output").text("Hello, " + $(this.name).val() + "!");
           return false;
         });
       });
