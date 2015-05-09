@@ -9,8 +9,9 @@
     
     <script>//<![CDATA[
       $(function() {
-        $("#name").change(function() {
-          $("#output").text("Hello, " + this.value + "!")
+        $("#greeting-form").submit(function() {
+          $("#output").text("Hello, " + this.name + "!");
+          this.preventDefault();
         });
       });
     //]]></script>
@@ -18,9 +19,9 @@
     <title>ブランクプロジェクト</title>
   </head>
   <body>
-    <form>
+    <form id="greeting-form">
       <div class="form-group">
-        <label for="name">名前</label>
+        <label for="name">名前を入力してenterを押してください:</label>
         <input id="name" name="name" class="form-control">
       </div>
     </form>
