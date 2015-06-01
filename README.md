@@ -1,5 +1,5 @@
 # bootstrap-blank
-スペシャリストチームでjquery + bootstrapプロジェクトを立ち上げるためのベースとなるブランクプロジェクトです。
+スペシャリストチームでjquery + Bacon.js + bootstrapプロジェクトを立ち上げるためのベースとなるブランクプロジェクトです。
 http://nichiwa-specialist.github.io/bootstrap-blank/ で内容を確認できます。
 
 cloneして、公開したい内容をgh-pagesブランチにpushすれば、同様に
